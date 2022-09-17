@@ -1,8 +1,9 @@
 body{
-    background-color: rgb(235, 179, 157);
+    background-color: rgb(237, 172, 147);
     font-size: 25px;
-    margin: 50px 0px 100px 20px;
+    margin: 50px /*0*/px 100px 200px;
     font-family: system-ui;
+    
     }
 img{
     height: 300px;
@@ -11,7 +12,7 @@ img{
 p,
 ol,
 ul{
-    width: 600px;
+    width: 800px;/*600px*/
 }
 h1,
 h2,
@@ -54,13 +55,20 @@ h3,
     color:rgb(0, 0, 0);
     font-style: oblique;
     padding-top: 4px;
-    max-width: 1400px;
+    max-width: 2000px;
 }
 .container{
-    max-width: 1000px;
+    max-width: 950px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
     justify-content: center;
+}
+a:hover {
+    /*border: 1px solid rgb(206, 117, 0);
+    border-radius: 10px;*/
+    color: rgb(0, 0, 0);
+    /*background-color: rgba(192, 125, 48, 0.3);*/
+    text-decoration: solid;
 }
