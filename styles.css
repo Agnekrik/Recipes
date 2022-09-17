@@ -23,22 +23,22 @@ h3,
 }
 .btn{
     font-size: 20px;
-    width: 120px;
+    width: 100px;
     height: 30px;
     display: block;
     text-decoration: none;
     color: black; /*teksto spalva */
     /* background-color: rgb(187, 208, 171); */
-    border: rgb(225, 163, 147) 1px solid;
-    border-radius: 7px;
+    border: rgb(193, 109, 89) 1px solid;
+    border-radius: 40px;
     text-align: center;
-    padding-top: 6px; /*atstumas nuo virsaus zemyn, kai vertikaliai neiscentruotas tekstas*/
+    padding-top: 2px; /*atstumas nuo virsaus zemyn, kai vertikaliai neiscentruotas tekstas*/
     position: absolute;
 }
-button{
+/* button{
     background: transparent;
     color: #00C2BA;
-    width: 150px;
+    width: 120px;
     height: 36px;
     font-family: sans-serif;
     font-size: 24px;
@@ -47,18 +47,20 @@ button{
     border-radius: 22px;
     letter-spacing: 7px;
     transition: 2s;
-}
+} */
 .hero{
     background-color: transparent;
     background-image: url("../images/tool.jpeg");
     color:rgb(0, 0, 0);
-    font-style:oblique;
+    font-style: oblique;
     padding-top: 4px;
+    max-width: 1400px;
 }
 .container{
-    max-width: 960px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
+    justify-content: center;
 }
