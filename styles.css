@@ -50,8 +50,8 @@ button{
 }
 .hero{
     background-color: transparent;
-    background-image: url("../images/pinkk.jpeg");
-    color:rgb(186, 5, 5);
+    background-image: url("../images/tool.jpeg");
+    color:rgb(0, 0, 0);
     font-style:oblique;
     padding-top: 4px;
 }
