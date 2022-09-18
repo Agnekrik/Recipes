@@ -1,7 +1,7 @@
 body{
     background-color: rgb(237, 172, 147);
-    font-size: 25px;
-    margin: 50px /*0*/px 100px 200px;
+    font-size: 25px; /*teksto dydos*/
+    margin: 30px 0px 100px 10px;/*aukstyn des zemyn kaire*/
     font-family: system-ui;
     
     }
@@ -35,6 +35,7 @@ h3,
     text-align: center;
     padding-top: 2px; /*atstumas nuo virsaus zemyn, kai vertikaliai neiscentruotas tekstas*/
     position: absolute;
+    margin-left: 200px; /*atstumas nuo kaires*/
 }
 /* button{
     background: transparent;
@@ -54,7 +55,7 @@ h3,
     background-image: url("../images/tool.jpeg");
     color:rgb(0, 0, 0);
     font-style: oblique;
-    padding-top: 4px;
+    padding-top: 4px; /*atstumas nuo virsaus LAUKELYJE*/
     max-width: 2000px;
 }
 .container{
