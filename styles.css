@@ -54,7 +54,7 @@ h3{
 }
 .hero{
     background-color: transparent;
-    background-image: url("../images/tool.jpeg");
+    background-image: url("../Recipes/images/tool.jpeg");
     color:rgb(0, 0, 0);
     font-style: oblique;
     padding-top: 4px; /*atstumas nuo virsaus LAUKELYJE*/
